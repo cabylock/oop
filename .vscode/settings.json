@@ -1,6 +1,12 @@
 {
    "java.project.sourcePaths": [
-      ""
+      ".",
+      "junit"
    ],
-   "java.format.settings.url": ".vscode/java-formatter.xml"
+   "java.format.settings.url": ".vscode/java-formatter.xml",
+   "java.project.referencedLibraries": [
+      "d:\\source_code\\oop\\test-lib\\hamcrest-core-1.3.jar",
+      "d:\\source_code\\oop\\test-lib\\junit-4.13.2.jar",
+      "test-lib\\**\\*.jar"
+   ]
 }
