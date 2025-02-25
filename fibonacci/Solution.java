@@ -1,6 +1,8 @@
-package test;
+package fibonacci;
 
-public class test {
+// Do not change the name of the Solution class
+public class Solution {
+   // Type your main code here
 
    /**
     * Find the greatest common divisor.
@@ -33,8 +35,4 @@ public class test {
 
    }
 
-   public static void main(String[] args) {
-      long a = Long.MAX_VALUE;
-      System.out.println(fibonacci(a));
-   }
 }
