@@ -1,0 +1,2 @@
+c:
+	mvn clean compile
