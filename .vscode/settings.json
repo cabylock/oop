@@ -1,14 +1,10 @@
 {
    "java.project.sourcePaths": [
-      ".",
-      "junit",
-      "testproject",
-      "project1\\src\\main\\java"
+      "transaction"
    ],
    "java.format.settings.url": ".vscode/java-formatter.xml",
-   "java.project.referencedLibraries": [
-      "test-lib\\**\\*.jar"
-   ],
+   "java.project.referencedLibraries": [],
    "maven.view": "hierarchical",
-   "java.configuration.updateBuildConfiguration": "automatic"
+   "java.configuration.updateBuildConfiguration": "automatic",
+   "java.debug.settings.onBuildFailureProceed": true
 }
