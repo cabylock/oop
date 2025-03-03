@@ -1,7 +1,8 @@
 {
    "java.project.sourcePaths": [
       "transaction",
-      "inheritance1"
+      "inheritance1",
+      "inheritance2"
    ],
    "java.format.settings.url": ".vscode/java-formatter.xml",
    "java.project.referencedLibraries": [],
