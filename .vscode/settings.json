@@ -1,8 +1,6 @@
 {
    "java.project.sourcePaths": [
-      "transaction",
-      "inheritance1",
-      "inheritance2"
+      "polymorphism1"
    ],
    "java.format.settings.url": ".vscode/java-formatter.xml",
    "java.project.referencedLibraries": [],

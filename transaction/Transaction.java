@@ -1,4 +1,4 @@
-
+package transaction;
 public class Transaction {
    private String operation;
    private double amount;
