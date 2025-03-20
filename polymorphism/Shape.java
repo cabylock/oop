@@ -43,6 +43,10 @@ public abstract class Shape {
     */
    public abstract double getPerimeter();
 
+   public abstract void draw(java.awt.Graphics g);
+
+   public abstract void move();
+
    public String toString() {
       return "Shape[color=" + color + ",filled=" + filled + "]";
    }

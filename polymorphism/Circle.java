@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class Circle extends Shape {
    protected double radius;
@@ -90,6 +91,22 @@ public class Circle extends Shape {
                && Math.abs(this.center.getPointY() - circle.center.getPointY()) < 0.001;
       }
       return false;
+   }
+
+   public void move() {
+      Random random = new Random();
+      this.center.setPointX(random.nextInt(800));
+      this.center.setPointY(random.nextInt(600));
+
+   }
+
+   public void draw(java.awt.Graphics g) {
+      g.setColor(java.awt.Color.RED);
+      if (isFilled()) {
+         g.fillOval((int) this.center.getPointX(), (int) this.center.getPointY(), (int) this.radius, (int) this.radius);
+      } else {
+         g.drawOval((int) this.center.getPointX(), (int) this.center.getPointY(), (int) this.radius, (int) this.radius);
+      }
    }
 
    @Override

@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class Square extends Rectangle {
 
@@ -84,6 +85,21 @@ public class Square extends Rectangle {
             && Math.abs(length - other.length) < 0.001
             && Math.abs(width - other.width) < 0.001;
 
+   }
+
+   public void move() {
+      Random random = new Random();
+      topLeft.setPointX(random.nextInt(800));
+      topLeft.setPointY(random.nextInt(600));
+   }
+
+   public void draw(java.awt.Graphics g) {
+      g.setColor(java.awt.Color.YELLOW);
+      if (isFilled()) {
+         g.fillRect((int) topLeft.getPointX(), (int) topLeft.getPointY(), (int) width, (int) length);
+      } else {
+         g.drawRect((int) topLeft.getPointX(), (int) topLeft.getPointY(), (int) width, (int) length);
+      }
    }
 
    @Override
