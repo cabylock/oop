@@ -1,6 +1,7 @@
 {
    "java.project.sourcePaths": [
-      "polymorphism"
+      "polymorphism",
+      "abstract"
    ],
    "java.format.settings.url": ".vscode/java-formatter.xml",
    "java.project.referencedLibraries": [],
