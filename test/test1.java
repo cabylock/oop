@@ -1,19 +1,20 @@
-package test;
+
 
 public class test1 {
 
    private static class Person {
       
-      public Person(int x) {
+      public Person() {
          System.out.println("Personx");
       }
    }
 
    public static class Employee extends Person {
       public Employee(int x) {
-         super(x);
+
          System.out.println("Employee");
       }
+      
 
    }
 
