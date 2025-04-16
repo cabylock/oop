@@ -138,16 +138,6 @@ public class GameServer extends Thread {
          }
       }
 
-      public <T> void sendData(List<T> data) {
-         try {
-            out.writeUTF("LIST"); // Indicate the type of message
-            out.writeObject(data); // Serialize and send the object
-            out.flush(); // Ensure the data is sent immediately
-         } catch (IOException e) {
-            System.err.println("Error sending object: " + e.getMessage());
-         }
-      }
-
    }
 
    public static void main(String[] args) {

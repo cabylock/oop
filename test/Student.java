@@ -1,5 +1,4 @@
-import java.io.BufferedReader;
-import java.nio.Buffer;
+
 
 public class Student extends Person {
    public int age;
