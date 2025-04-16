@@ -1,10 +1,13 @@
 {
    "java.project.sourcePaths": [
+      "network",
       "23020795",
-      "network"
+      "exception1"
    ],
    "java.format.settings.url": ".vscode/java-formatter.xml",
-   "java.project.referencedLibraries": [],
+   "java.project.referencedLibraries": [
+      "test-lib/**/*.jar"
+   ],
    "maven.view": "hierarchical",
    "java.configuration.updateBuildConfiguration": "automatic",
    "java.debug.settings.onBuildFailureProceed": true
