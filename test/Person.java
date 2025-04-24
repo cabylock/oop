@@ -1,14 +1,15 @@
 public class Person implements abc {
-   private int age;
+   private int age =2 ;
+
+   class abc
+   {
+      
+   };
 
   
 
-   public Person(int age) {
-      this.age = age;
-   }
-
-   private void  abc(){
-      System.out.println("abc");
+   public void abc(){
+      System.out.println(age);
    }
 
    static void azd() {

@@ -3,7 +3,8 @@
       "network",
       "23020795",
       "exception1",
-      "exception2"
+      "exception2",
+      "midterm"
    ],
    "java.format.settings.url": ".vscode/java-formatter.xml",
    "java.project.referencedLibraries": [
@@ -12,5 +13,13 @@
    ],
    "maven.view": "hierarchical",
    "java.configuration.updateBuildConfiguration": "automatic",
-   "java.debug.settings.onBuildFailureProceed": true
+   "java.debug.settings.onBuildFailureProceed": true,
+   "github.copilot.enable": {
+      "*": true,
+      "plaintext": "true",
+      "markdown": false,
+      "scminput": false,
+      "java": true,
+      "cpp": true
+   }
 }

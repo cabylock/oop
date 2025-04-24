@@ -1,14 +1,8 @@
 
-
 public class Student extends Person {
-   public int age;
+   public int age = 10;
 
-   private Student() {
-      super(1);
-
-   }
-
-   public void abd(int x, String y, int z) {
+   public void abc(int x, String y, int z) {
       return;
    }
 
@@ -19,7 +13,7 @@ public class Student extends Person {
    public static void main(String[] args) {
 
       Person p = new Student();
-      System.out.println(p instanceof abc);
+      p.abc();
 
    }
 
