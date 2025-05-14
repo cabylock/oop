@@ -1,11 +1,7 @@
 {
    "java.project.sourcePaths": [
-      "network",
-      "23020795",
-      "exception1",
-      "exception2",
-      "midterm",
-      "chess1"
+      "chess1",
+      "generic"
    ],
    "java.format.settings.url": ".vscode/java-formatter.xml",
    "java.project.referencedLibraries": [],
