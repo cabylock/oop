@@ -1,8 +1,6 @@
 {
    "java.project.sourcePaths": [
-      "generic",
-      "chess1",
-      "program-analysis"
+      "banking"
    ],
    "java.format.settings.url": ".vscode/java-formatter.xml",
    "java.project.referencedLibraries": [],
